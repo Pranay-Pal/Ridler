@@ -1,0 +1,15 @@
+.Quiz{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.PicImage{
+    width: 70%;
+    height: auto;
+    max-width: 560px;
+}

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { HiMenu } from 'react-icons/hi';
 import { IoMdClose } from "react-icons/io";
-import club_logo from "../../Assets/Logo/club-logo-2.png"
+import club_logo from "./../../assets/Logo/club-logo-2.png"
 import "./Nav.css";
 
 const url="http://coding-junction.in";

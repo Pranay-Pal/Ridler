@@ -3,7 +3,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Particle from './components/Particle/Particle';
 import WebCursor from './components/WebCursor/WebCursor';
-import FinalForm from './components/Nav/FinalForm';
+import FinalForm from './components/FinalForm';
 import Nav from './components/Nav/Nav'
 import img1 from "./assets/ImageFolder/1.png"
 import img2 from "./assets/ImageFolder/2.png"

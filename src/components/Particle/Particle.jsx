@@ -117,7 +117,7 @@ export default function Particle() {
                         },
                     },
                     background: {
-                        color: "#150F0F",
+                        color: "#00111d",
                     }}
                 }
             />

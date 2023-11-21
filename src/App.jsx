@@ -13,7 +13,7 @@ import img5 from "./assets/ImageFolder/5.png"
 import img6 from "./assets/ImageFolder/6.png"
 import img7 from "./assets/ImageFolder/7.png"
 import img8 from "./assets/ImageFolder/intro.png"
-import img9 from "./assets/ImageFolder/wrong.png"
+import img9 from "./assets/ImageFolder/Wrong.png"
 import img10 from "./assets/Images/home.png"
 import img11 from "./assets/Images/join.png"
 import QuizPage from './components/QuizPage';

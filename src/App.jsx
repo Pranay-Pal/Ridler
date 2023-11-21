@@ -12,8 +12,12 @@ import img4 from "./assets/ImageFolder/4.png"
 import img5 from "./assets/ImageFolder/5.png"
 import img6 from "./assets/ImageFolder/6.png"
 import img7 from "./assets/ImageFolder/7.png"
-
+import img8 from "./assets/ImageFolder/intro.png"
+import img9 from "./assets/ImageFolder/wrong.png"
+import img10 from "./assets/Images/home.png"
+import img11 from "./assets/Images/join.png"
 import QuizPage from './components/QuizPage';
+import Intro from './components/Intro';
 function App() {
 
   return (
@@ -22,7 +26,8 @@ function App() {
     <WebCursor />
     <Nav />
     <Routes>
-    <Route path='*' element={<><h1>Not Found</h1></>}/>
+    <Route path='/' element={<Intro images={img8} btnimg={img11} nav='/firstquestion'/>}/>
+    <Route path='*' element={<Intro images={img9} btnimg={img10} nav='/'/>}/>
     <Route path='/firstquestion' element={<QuizPage image={img1}/>}/>
     <Route path='/bribe' element={<QuizPage image={img2}/>}/>
     <Route path='/orphan' element={<QuizPage image={img3}/>}/>
@@ -31,7 +36,6 @@ function App() {
     <Route path='/shadow' element={<QuizPage image={img6}/>}/>
     <Route path='/vowels' element={<QuizPage image={img7}/>}/>
     <Route path='/brain' element={<FinalForm/>}/>
-
     </Routes>
 
     </BrowserRouter>
